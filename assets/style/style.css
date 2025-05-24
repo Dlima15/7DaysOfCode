@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/*resett*/
+
+/* 1. Box-sizing para facilitar o layout */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remover margens e paddings padrão de todos os elementos */
+/* Isso é uma técnica agressiva, mas eficaz para um reset forte */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+:root {
+  --color-primary-red: #B52D36;
+  --color-text-dark: #333333;
+  --color-background-light-gray: #F8F8F8;
+  --color-text-medium-gray: #666666;
+  --color-white: #FFFFFF;
+  --color-accent-pink: #FFF3F5;
+  /* ... e assim por diante */
+}
+
+:root {
+  /* --- Variável para a Família da Fonte --- */
+  --font-family-poppins: 'Poppins', sans-serif;
+
+  /* --- Variáveis para Pesos Comuns da Poppins (se você importar eles) --- */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* --- Cores de Texto (Reutilizando as que inferimos) --- */
+  --color-text-dark: #101828; /* Preto mais comum */
+  --color-text-medium-gray: #667085; /* Cinza para subtítulos */
+  --color-text-red-dark: #8E2424; /* Vermelho escuro para títulos/parágrafos específicos */
+  --color-white: #FFFFFF;
+}
+
+
+*{
+    font-family: 'Open Sans, ';
+}
+

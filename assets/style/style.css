@@ -70,6 +70,7 @@
 .header__buttons{
     display: flex;
     gap: 15%;
+}
 
 .header__buttons__one{
     background-color: transparent;
@@ -92,3 +93,31 @@
     border-radius: 5px;
 }
 
+.content__principle{
+  margin-top: 10%;
+  text-align: center;
+}
+
+.content__principle__subtitle{
+  font-family: var(--font-family-poppins);
+  font-size: 16px;
+  color: var(--color-text-red-dark);
+  font-weight: 600;
+}
+
+.content__principle__title{
+  margin-top: 3%;
+  font-family: var(--font-family-poppins);
+  color: var(--color-text-dark);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.content__principle__texto{
+ margin:0 20% 20% ;
+  margin-top: 3%;
+  font-family: var(--font-family-poppins);
+  color: var(--color-text-medium-gray);
+  font-size: 20px;
+  font-weight: 400;
+}

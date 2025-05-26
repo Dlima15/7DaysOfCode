@@ -121,3 +121,34 @@
   font-size: 20px;
   font-weight: 400;
 }
+
+.portfolio{
+  display: flex;
+  text-align: center;
+  margin: 0 8% 0 8%;
+}
+
+.portfolio__number{
+  margin: 0 1% 0 1%;
+}
+
+.portfolio__number h2{
+  color: var(--color-text-red-dark);
+  font-size: 60px;
+  font-family: var(--font-family-poppins);
+  font-weight: 600;
+}
+
+.portfolio__number h3{
+  color: var(--color-text-dark);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+}
+
+.portfolio__number p{
+  color: var(--color-text-medium-gray);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-family-poppins);
+}

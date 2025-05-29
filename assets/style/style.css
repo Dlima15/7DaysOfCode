@@ -152,3 +152,75 @@
   font-weight: 400;
   font-family: var(--font-family-poppins);
 }
+
+.talentos{
+  margin-top: 8%;
+}
+
+.talentos__title{
+  text-align: center;
+}
+
+.talentos__title__vagas{
+  font-family: var(--font-family-poppins);
+  font-size: 16px;
+  color: var(--color-text-red-dark);
+  font-weight: 600;
+  background-color: #f9f4f4;
+  padding: 0.5%;
+  border-radius: 25em;
+}
+
+.talentos__title__title{
+  font-family: var(--font-family-poppins);
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -2%;
+  margin-top: 2%;
+}
+
+.talentos__title__p{
+  font-size: 20px;
+  font-family: var(--font-family-poppins);
+  font-weight: 400;
+  color: var(--color-text-medium-gray);
+  margin-top: 2%;
+}
+
+.talentos__container{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.lista__vagas{
+  margin: 4% 15% 0 15%;
+}
+
+#lista__vagas__title__vaga{
+  font-weight: 700;
+  color: var(--color-text-red-dark);
+}
+
+.lista__vagas h2{
+  font-family: var(--font-family-poppins);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-text-dark);
+}
+
+.lista__vagas__item{
+  padding: 2%;
+  margin-top: 1%;
+  background-color: transparent;
+  border: 1px solid #f9f4f4;/* Bordas finas e transparentes */
+  box-sizing: border-box;
+  border-radius: 1rem;
+}
+
+.lista__vagas__item__sal{
+  font-family: var(--font-family-poppins);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-text-medium-gray);
+}

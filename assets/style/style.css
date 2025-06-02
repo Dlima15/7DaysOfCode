@@ -42,6 +42,10 @@
   --color-white: #FFFFFF;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .header{
     justify-content: space-between ;
     display: flex;

@@ -356,3 +356,334 @@ footer{
   color: var(--color-text-medium-gray);
   padding-bottom: 1%;
 }
+
+/* RESPONSIVO XXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+@media (max-width: 1024px) {
+  .header {
+    margin: 2% 5% 0 5%;
+  }
+
+  .header__nav__itens__a {
+    padding-left: 25px;
+    font-size: 15px;
+  }
+
+  .header__buttons {
+    gap: 10%;
+  }
+
+  .content__principle__title {
+    font-size: 40px;
+  }
+
+  .content__principle__texto {
+    margin: 0 15% 15%;
+    font-size: 18px;
+  }
+
+  .portfolio {
+    margin: 0 5% 0 5%;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: space-around;
+  }
+
+  .portfolio__number {
+    margin: 0 1% 30px 1%; /* Adiciona margem inferior para quando quebrar a linha */
+    flex-basis: 48%; /* Faz com que caibam 2 por linha, aproximadamente */
+  }
+
+  .portfolio__number h2 {
+    font-size: 50px;
+  }
+
+  .talentos__title__title {
+    font-size: 32px;
+  }
+
+  .talentos__title__p {
+    font-size: 18px;
+  }
+
+  .lista__vagas {
+    margin: 4% 10% 0 10%;
+  }
+
+  .avaliacoes {
+    margin: 6% 5% 0 5%;
+  }
+
+  .avaliacoes__titulo {
+    font-size: 30px;
+  }
+
+  .footer__fim__titulo {
+    font-size: 30px;
+  }
+
+  .footer__fim__texto {
+    font-size: 18px;
+  }
+
+  .footer__fim__input {
+    width: 35%;
+    padding: 0.6%;
+  }
+
+  .footer__fim__button {
+    padding: 0.6%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center; /* Centraliza o logo */
+    margin: 5% 5% 0 5%;
+    gap: 20px; /* Espaço entre o logo, nav e botões */
+  }
+
+  .header__nav__itens {
+    flex-direction: column; /* Empilha os itens de navegação */
+    align-items: center;
+    padding-left: 0; /* Remove o padding da ul */
+    width: 100%; /* Faz a navegação ocupar a largura total */
+  }
+
+  .header__nav__itens__a {
+    padding: 10px 0; /* Ajusta o padding para itens empilhados */
+    font-size: 18px; /* Pode aumentar um pouco para mobile */
+    text-align: center;
+    width: 100%; /* Faz cada link ocupar a largura */
+    border-bottom: 1px solid #eee; /* Opcional: separador */
+  }
+  .header__nav__itens__a:last-child {
+    border-bottom: none;
+  }
+
+
+  .header__buttons {
+    flex-direction: column; /* Empilha os botões */
+    width: 60%; /* Define uma largura para os botões */
+    gap: 10px; /* Espaço entre os botões */
+    margin-top: 20px;
+  }
+
+  .header__buttons__one,
+  .header__buttons__two {
+    width: 100%; /* Botões ocupam a largura do contêiner .header__buttons */
+    text-align: center;
+    padding: 10px; /* Padding uniforme */
+  }
+  
+  .header__buttons__two{
+     padding: 12px; /* Ajuste para manter proporção com o border-box */
+  }
+
+
+  .content__principle {
+    margin-top: 15%;
+  }
+
+  .content__principle__subtitle {
+    font-size: 14px;
+  }
+
+  .content__principle__title {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .content__principle__texto {
+    margin: 5% 8% 15% 8%;
+    font-size: 16px;
+  }
+
+  .portfolio {
+    flex-direction: column; /* Empilha os itens do portfólio */
+    align-items: center;
+    margin: 0 5% 0 5%;
+  }
+
+  .portfolio__number {
+    margin: 0 0 40px 0; /* Margem inferior entre itens empilhados */
+    flex-basis: auto; /* Reseta flex-basis */
+    width: 80%; /* Define uma largura para os itens */
+    max-width: 350px; /* Limita a largura máxima */
+  }
+
+  .portfolio__number h2 {
+    font-size: 40px;
+  }
+  .portfolio__number h3{
+    font-size: 17px;
+  }
+  .portfolio__number p{
+    font-size: 15px;
+  }
+
+  .talentos {
+    margin-top: 12%;
+  }
+
+  .talentos__title__vagas {
+    font-size: 14px;
+    padding: 1% 2%;
+  }
+
+  .talentos__title__title {
+    font-size: 28px;
+  }
+
+  .talentos__title__p {
+    font-size: 16px;
+    margin: 3% 5% 0 5%;
+  }
+
+  .lista__vagas {
+    margin: 6% 5% 0 5%;
+  }
+
+  .lista__vagas h2 {
+    font-size: 18px;
+  }
+
+  .lista__vagas__item__sal {
+    font-size: 14px;
+  }
+
+  .avaliacoes {
+    margin: 10% 5% 0 5%;
+    padding: 4%;
+  }
+
+  .avaliacoes__texto {
+    font-size: 13px;
+  }
+
+  .avaliacoes__titulo {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+
+  .avaliacoes__perfil__nome {
+    font-size: 15px;
+  }
+
+  .avaliacoes__perfil__profissao {
+    font-size: 13px;
+  }
+
+
+  footer {
+    margin-top: 12%;
+    padding-bottom: 5%; /* Adiciona padding inferior ao footer */
+  }
+
+  .footer__fim__titulo {
+    font-size: 28px;
+    padding-top: 8%;
+  }
+
+  .footer__fim__texto {
+    font-size: 16px;
+    margin: 3% 5% 0 5%;
+  }
+  
+  .footer__form { /* Crie um container para o input e botão se necessário */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5%;
+  }
+
+  .footer__fim__input {
+    width: 80%;
+    max-width: 350px; /* Limita a largura máxima */
+    padding: 12px; /* Aumenta o padding para toque */
+    font-size: 15px;
+    margin-bottom: 10px; /* Espaço para o botão se não estiver no form */
+  }
+
+  .footer__fim__button {
+    width: 80%;
+    max-width: 350px; /* Limita a largura máxima */
+    padding: 12px; /* Aumenta o padding para toque */
+    margin: 0; /* Remove margem se estiver dentro de um flex container como footer__form */
+  }
+
+  .footer__fim__span {
+    margin-top: 5%;
+    font-size: 12px;
+    padding-bottom: 5%;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    margin: 8% 5% 0 5%;
+  }
+  .header__buttons {
+    width: 80%; /* Botões podem ocupar mais largura */
+  }
+
+  .content__principle__title {
+    font-size: 26px;
+  }
+
+  .content__principle__texto {
+    margin: 5% 5% 10% 5%; /* Menos margem lateral */
+    font-size: 15px;
+  }
+
+  .portfolio__number {
+    width: 90%; /* Itens do portfólio podem ocupar mais largura */
+  }
+  .portfolio__number h2 {
+    font-size: 36px;
+  }
+  .portfolio__number h3{
+    font-size: 16px;
+  }
+  .portfolio__number p{
+    font-size: 14px;
+  }
+
+
+  .talentos__title__title {
+    font-size: 24px;
+  }
+
+  .talentos__title__p {
+    font-size: 15px;
+  }
+
+  .lista__vagas h2 {
+    font-size: 17px;
+  }
+
+  .avaliacoes__titulo {
+    font-size: 22px;
+  }
+
+  .footer__fim__titulo {
+    font-size: 24px;
+  }
+
+  .footer__fim__texto {
+    font-size: 15px;
+  }
+
+  .footer__fim__input,
+  .footer__fim__button {
+    width: 90%; /* Input e botão ocupam quase toda a largura */
+    font-size: 14px;
+  }
+   .footer__fim__span {
+    margin-top: 8%;
+    font-size: 11px;
+  }
+}
